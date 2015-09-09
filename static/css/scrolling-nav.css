@@ -1,0 +1,225 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.main_gif {
+    opacity: 0;
+    padding-top: 0px;
+    top: -50px;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    position: relative;
+}
+
+.main_gif.appear {
+    opacity: 100;
+}
+
+div.main_gif.scroll-up {
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    top: -100px;
+} 
+
+.navbar a {
+    display: inline;
+    color: #ff4646 !important;
+    padding-right: 0px;
+}
+
+.navbar p {
+    font-size: 150%;
+    color: #ff4646 !important;
+    padding-left: 0px;
+    font-family: 'Elkwood', sans-serif;
+    display: inline;
+}
+
+.navbar-inner {
+    text-align: center;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    position: relative;
+    float: none;
+    font-family: 'Elkwood', sans-serif;
+    font-size: 250%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        opacity: 0;
+        padding: 20px 0;
+        -webkit-transition: all 1.5s ease-in-out;
+        -moz-transition: all 1.5s ease-in-out;
+        -o-transition: all 1.5s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        opacity: 100;
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: url('/static/img/bg.png');
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    background: #eee;
+}
+
+.about_text h1 {
+    font-size: 6.5em !important;   
+}
+
+.about_text {
+    opacity: 0;
+    top: 400;
+    padding-bottom: 0px;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    position: relative;
+    font-family: 'Elkwood', sans-serif;
+    color: #ff4646;
+}
+
+.about_text.appear {
+    top: 300;
+    opacity: 100;   
+}
+
+.about-modals {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    position: relative;
+    opacity: 0;
+}
+
+.about-modals.appear {
+    padding-top: 25px;
+    opacity: 100;
+}
+
+.demo-section h1 {
+    font-size: 6.5em !important;
+    padding-bottom: 30px;
+}
+
+.demo-section {
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #fff;
+    font-family: 'Elkwood', sans-serif;
+    color: #ff4646;
+}
+
+.video {
+    padding-top: 125px;
+    padding-bottom: 100px;
+    left: 40 px;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.0s ease-in-out;
+    position: relative;
+    opacity: 0;
+}
+
+.video.appear {
+    left: 0px;
+    opacity: 100;
+}
+
+#youtube:hover img {
+    left: 50px;
+}
+
+.team-section h1 {
+    font-size: 6.5em !important;
+    padding-bottom: 30px;
+}
+
+.team-section {
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #eee;
+    font-family: 'Elkwood', sans-serif;
+    color: #ff4646;
+}
+
+.team-modals {
+    padding-top: 5px;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+    position: relative;
+    opacity: 0;
+}
+    
+.team-modals h4 {
+    font-size: 225% !important;
+}
+
+.team-modals h5 {
+    font-size: 175% !important;
+    color: #373737 !important;
+}
+
+.team-modals.appear {
+    padding-top: 15px;
+    opacity: 100;   
+}
+
+.footer-section {
+    height: 35%;
+    padding-top: 75px;
+    text-align: center !important;
+    background: url('/static/img/footer-bg.png');
+}

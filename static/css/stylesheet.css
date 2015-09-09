@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'elkwoodregular';
+    src: url('Elkwood - Free-webfont.eot');
+    src: url('Elkwood - Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Elkwood - Free-webfont.woff2') format('woff2'),
+         url('Elkwood - Free-webfont.woff') format('woff'),
+         url('Elkwood - Free-webfont.ttf') format('truetype'),
+         url('Elkwood - Free-webfont.svg#elkwoodregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
